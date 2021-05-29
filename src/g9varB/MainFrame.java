@@ -75,7 +75,7 @@ public class MainFrame extends JFrame implements MessageListener {
         layout1.setHorizontalGroup(layout1.createSequentialGroup().addContainerGap().addGroup(layout1.createParallelGroup().addComponent(scrollPaneIncoming).addComponent(messagePanel)).addContainerGap());
         layout1.setVerticalGroup(layout1.createSequentialGroup().addContainerGap().addComponent(scrollPaneIncoming).addGap(10).addComponent(messagePanel).addContainerGap());
     }
-
+//send message
     private void sendMessage() {
         String senderName = this.textFieldFrom.getText();
         String destinationAddress = this.textFieldTo.getText();
